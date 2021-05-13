@@ -32,8 +32,8 @@ import java.io.*;
 
 		@Override
 		public int compareTo(Student st) {
-			// TODO Auto-generated method stub
-			return 0;
+			
+			return this.firstName.compareTo(st.firstName);
 			
 		}
 		}
