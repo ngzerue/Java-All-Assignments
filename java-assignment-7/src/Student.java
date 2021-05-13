@@ -37,28 +37,8 @@ import java.io.*;
 			
 		}
 		}
-      public class MainStudent {
-
-	public static void main(String[] args) {
-		List<Student> students = new ArrayList<>();
-	      students.add(new Student("Hagos",20));
-	      students.add(new Student("Zeray",18));
-	      students.add(new Student("Tirhas",25));
-	      students.add(new Student("Seble",23));
-	      
-	      Collections.sort(students);
-	      for(Student s: students) 
-	    	  System.out.print(s+", ");
-
-	}
-
-}
-		
+     	
 	
-	
-
-
-
 
 /*  
 4. Given Student class sort students list with their first name using comparable interface 
